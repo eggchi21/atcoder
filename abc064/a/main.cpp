@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  // にゅう
+  // 入力値
   int a, b, c, d;
   cin >> a >> b >> c;
   d = (a * 100 + b * 10 + c) % 4;
