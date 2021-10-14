@@ -10,15 +10,10 @@ int main()
     string ans = "-1 -1 -1";
     // 初期化で0
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
+        for (int j = 1; j <= m; j++) {
             a_cnt = i;
             b_cnt = j;
-            c_cnt = n - i - j;
-            if (a * a_cnt + b * b_cnt + c * c_cnt == m) {
-                ans = std::to_string(a_cnt) + " " + std::to_string(b_cnt) + " " + std::to_string(c_cnt);
-            }
+            c_cnt = 
         }
     }
-
-    cout << ans << endl;
 }
